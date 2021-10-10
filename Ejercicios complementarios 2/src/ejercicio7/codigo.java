@@ -1,6 +1,8 @@
 
 package ejercicio7;
 
+import java.util.Arrays;
+
 
 public class codigo {
     
@@ -8,7 +10,7 @@ public class codigo {
         
         funcion prueba= new funcion();
         
-        System.out.println(prueba.valores(3, 6));
+        System.out.println(Arrays.asList(prueba.valores(1, 8)));
     }
     
 }
